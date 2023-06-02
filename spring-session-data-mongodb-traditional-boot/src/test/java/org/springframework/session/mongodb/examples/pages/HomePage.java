@@ -28,7 +28,8 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class HomePage extends BasePage {
 
-	@FindBy(css = "input[type='submit']") private WebElement submit;
+	@FindBy(css = "input[type='submit']")
+	private WebElement submit;
 
 	public HomePage(WebDriver driver) {
 		super(driver);

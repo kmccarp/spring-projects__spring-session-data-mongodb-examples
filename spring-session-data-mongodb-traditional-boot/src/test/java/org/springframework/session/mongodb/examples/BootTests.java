@@ -46,7 +46,8 @@ import org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDr
 @SpringBootTest(webEnvironment = WebEnvironment.MOCK)
 public class BootTests {
 
-	@Autowired private MockMvc mockMvc;
+	@Autowired
+	private MockMvc mockMvc;
 
 	private WebDriver driver;
 

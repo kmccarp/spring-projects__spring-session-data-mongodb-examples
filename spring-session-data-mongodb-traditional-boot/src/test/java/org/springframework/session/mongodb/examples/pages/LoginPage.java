@@ -28,11 +28,14 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class LoginPage extends BasePage {
 
-	@FindBy(name = "username") private WebElement username;
+	@FindBy(name = "username")
+	private WebElement username;
 
-	@FindBy(name = "password") private WebElement password;
+	@FindBy(name = "password")
+	private WebElement password;
 
-	@FindBy(css = "button[type='submit']") private WebElement submit;
+	@FindBy(css = "button[type='submit']")
+	private WebElement submit;
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
